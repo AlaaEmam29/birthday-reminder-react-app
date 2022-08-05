@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #1D4350;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #A43931, #1D4350);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #A43931, #1D4350); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;  
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container
+{
+  width: 350px;
+  padding: 20px;
+  background: #fff;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.container > *
+{
+  letter-spacing:0.15rem;
+}
+.container h3{
+  text-align: center;
+}
+.person {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  column-gap: 0.75rem;
+  margin-bottom: .5rem;
+  align-items: center;
+
+}
+.person img {
+  width: 75px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  
+}
+.person div{
+  line-height: .4;
+  
+
+}
+.person h4 {
+  margin-bottom: 0.35rem;
+word-spacing: 20px;
+}
+.person p {
+  margin-bottom: 0;
+}
+.btn-icon,.btn
+{
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+
+}
+.btn-icon
+{
+  background-color: transparent;
+  border: none;
+  color: #1d4350;
+}
+.btn
+{
+  width: 100%;
+  background-color: #1D4350;
+  border: 1px solid #1D4350;
+  padding: 10px;
+  color: #fff;
+  letter-spacing: 0.35rem;
+  border-radius: 5px;
+
+}
